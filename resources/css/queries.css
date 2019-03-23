@@ -19,6 +19,12 @@
         margin-left: 10%;
     }
 
+    .meal-photo img:hover {
+        opacity: 1;
+        -webkit-transform: scale(1.04);
+                transform: scale(1.04);
+    }
+
     .steps-box:first-child { margin-top: 10px; }
     .steps-box:last-child { margin-top: 10px; }
     .works-step { margin-bottom: 40px;}
