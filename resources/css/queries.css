@@ -93,6 +93,12 @@
         margin-left: 0;
     }
 
+    .meal-photo img:hover {
+        opacity: 1;
+        -webkit-transform: scale(1.08);
+                transform: scale(1.08);
+    }
+
     .works-step { margin-bottom: 20px;}
     .works-step:last-of-type { margin-bottom: 20px;}
 
@@ -123,6 +129,13 @@
 
 /* Small phones: from 0 to 480px */
 @media only screen and (max-width: 480px) {
+
+    .meal-photo img:hover {
+        opacity: 1;
+        -webkit-transform: scale(1.08);
+                transform: scale(1.08);
+    }
+
     section { padding: 25px 0; }
     .contact-form {width: 100%; }
 
